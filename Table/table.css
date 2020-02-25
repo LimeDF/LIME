@@ -1,0 +1,497 @@
+body{   /* Свойства страницы */
+	padding: 0;
+	margin: 0;
+	background: #000000;
+	transition: 1.5s;
+}
+.U1, .U2{   /* Свойства полоски */
+	background: #FFFFFF;
+	position: absolute;
+	top: 20.1cm;
+	left: 0px;
+	height: 0.1cm;
+	width: 42cm;
+}
+.U1{ top: 20.1cm; }
+.U2{ top: 27cm; }
+.O0, .O1, .O2, .O3{   /* Свойства пустого квадратика */
+	background: #111111;
+	color: #FFFFFF;
+	position: absolute;
+	transition: 0.5s;
+}
+.O0{
+	left: 1cm;
+	top: 1cm;
+	height: 1.5cm;
+	width: 1.5cm;
+}
+.O1, .O2, .O3{ 
+	height: 2cm;
+	width: 2cm;
+	left: 7.3cm;
+	font-size: 20px;
+	font-family: 'Aldrich', sans-serif;
+	text-align: center;
+	user-select: none; 
+}
+.O1{ top: 13.6cm; }
+.O2{ top: 15.7cm; }
+.O3{ top: 17.8cm; }
+
+.T1, .T2, .T3{
+	position: absolute;
+	left: 7.7cm;
+	color: #FFFFFF;
+	font-size: 25px;
+	font-family: 'Aldrich', sans-serif;
+	text-align: center;
+	user-select: none; 
+}
+.T1{ top: 20.4cm; }
+.T2{ top: 22.5cm; }
+.T3{ top: 24.6cm; }
+
+#La1, #La2, #La3{
+	color: #FFFFFF;
+  position: absolute;
+	left: 8.3cm;
+	width: 20cm;
+  font-size: 40px;
+	font-family: 'Aldrich', sans-serif;
+}
+#La1{ top: 3.7cm; }
+#La2{ top: 5.5cm; }
+#La3{ top: 7.3cm; }
+
+.G1, .G2, .G3, .G4, .G5, .G6, .G7, .G8, .G9, .G10, .G11, .G12, .G13, .G14, .G15, .G16, .G17, .G18{   /* Свойства группы */
+	background: #111111;
+	color: #FFFFFF;
+	position: absolute;
+	top: 1cm;
+	height: 1.5cm;
+	width: 2cm;
+	transition: 0.5s;
+  font-size: 20px;
+	font-family: 'Aldrich', sans-serif;
+	text-align: center;
+	user-select: none;
+	line-height: 60px;
+}
+.P1, .P2, .P3, .P4, .P5, .P6, .P7, .P8{   /* Свойства периода */
+	background: #111111;
+	color: #FFFFFF;
+	position: absolute;
+	top: 1cm;
+	height: 2cm;
+	width: 1.5cm;
+	transition: 0.5s;
+  font-size: 20px;
+	font-family: 'Aldrich', sans-serif;
+	text-align: center;
+	user-select: none;
+}
+
+.G1{ left: 3.1cm; top: 1cm; }   /* Позиция группы */
+.G2{ left: 5.2cm; top: 1cm; }
+.G3{ left: 7.3cm; top: 1cm; }
+.G4{ left: 9.4cm; top: 1cm; }
+.G5{ left: 11.5cm; top: 1cm; }
+.G6{ left: 13.6cm; top: 1cm; }
+.G7{ left: 15.7cm; top: 1cm; }
+.G8{ left: 17.8cm; top: 1cm; }
+.G9{ left: 19.9cm; top: 1cm; }
+.G10{ left: 22cm; top: 1cm; }
+.G11{ left: 24.1cm; top: 1cm; }
+.G12{ left: 26.2cm; top: 1cm; }
+.G13{ left: 28.3cm; top: 1cm; }
+.G14{ left: 30.4cm; top: 1cm; }
+.G15{ left: 32.5cm; top: 1cm; }
+.G16{ left: 34.6cm; top: 1cm; }
+.G17{ left: 36.7cm; top: 1cm; }
+.G18{ left: 38.8cm; top: 1cm; }
+
+.P1{ top: 3.1cm; left: 1cm; }   /* Позиция периода */
+.P2{ top: 5.2cm; left: 1cm; }
+.P3{ top: 7.3cm; left: 1cm; }
+.P4{ top: 9.4cm; left: 1cm; }
+.P5{ top: 11.5cm; left: 1cm; }
+.P6{ top: 13.6cm; left: 1cm; }
+.P7{ top: 15.7cm; left: 1cm; }
+.P8{ top: 17.8cm; left: 1cm; }
+
+.El1, .El2, .El3, .El4, .El5, .El6, .El7, .El8, .El9, .El10, .El11, .El12, .El13, .El14, .El15, .El16, .El17, .El18,
+.El19, .El20, .El21, .El22, .El23, .El24, .El25, .El26, .El27, .El28, .El29, .El30, .El31, .El32, .El33, .El34, .El35,
+.El36, .El37, .El38, .El39, .El40, .El41, .El42, .El43, .El44, .El45, .El46, .El47, .El48, .El49, .El50, .El51, .El52,
+.El53, .El54, .El55, .El56, .El57, .El58, .El59, .El60, .El61, .El62, .El63, .El64, .El65, .El66, .El67, .El68, .El69,
+.El70, .El71, .El72, .El73, .El74, .El75, .El76, .El77, .El78, .El79, .El80, .El81, .El82, .El83, .El84, .El85, .El86,
+.El87, .El88, .El89, .El90, .El91, .El92, .El93, .El94, .El95, .El96, .El97, .El98, .El99, .El100, .El101, .El102,
+.El103, .El104, .El105, .El106, .El107, .El108, .El109, .El110, .El111, .El112, .El113, .El114, .El115, .El116, .El117,
+.El118, .El119, .El120, .El121, .El122, .El123, .El124, .El125, .El126, .El127{   /* Свойства элементов */
+	background: #111111;
+	color: #FFFFFF;
+	position: absolute;
+	height: 2cm;
+	width: 2cm;
+	transition: 0.5s;
+  font-size: 15px;
+	font-family: 'Aldrich', sans-serif;
+	text-align: left;
+	user-select: none;
+	border-radius: 0mm;
+	line-height: 35px;
+	text-indent: 7px;
+}
+.El1{left: 3.1cm; top: 3.1cm; }  /* Позиция элементов */
+.El2{ left: 38.8cm; top: 3.1cm; }
+.El3{ left: 3.1cm; top: 5.2cm; }
+.El4{ left: 5.2cm; top: 5.2cm; }
+.El5{ left: 28.3cm; top: 5.2cm; }
+.El6{ left: 30.4cm; top: 5.2cm; }
+.El7{ left: 32.5cm; top: 5.2cm; }
+.El8{ left: 34.6cm; top: 5.2cm; }
+.El9{ left: 36.7cm; top: 5.2cm; }
+.El10{ left: 38.8cm; top: 5.2cm; }
+.El11{ left: 3.1cm; top: 7.3cm; }
+.El12{ left: 5.2cm; top: 7.3cm; }
+.El13{ left: 28.3cm; top: 7.3cm; }
+.El14{ left: 30.4cm; top: 7.3cm; }
+.El15{ left: 32.5cm; top: 7.3cm; }
+.El16{ left: 34.6cm; top: 7.3cm; }
+.El17{ left: 36.7cm; top: 7.3cm; }
+.El18{ left: 38.8cm; top: 7.3cm; }
+.El19{ left: 3.1cm; top: 9.4cm; }
+.El20{ left: 5.2cm; top: 9.4cm; }
+.El21{ left: 7.3cm; top: 9.4cm; }
+.El22{ left: 9.4cm; top: 9.4cm; }
+.El23{ left: 11.5cm; top: 9.4cm; }
+.El24{ left: 13.6cm; top: 9.4cm; }
+.El25{ left: 15.7cm; top: 9.4cm; }
+.El26{ left: 17.8cm; top: 9.4cm; }
+.El27{ left: 19.9cm; top: 9.4cm; }
+.El28{ left: 22cm; top: 9.4cm; }
+.El29{ left: 24.1cm; top: 9.4cm; }
+.El30{ left: 26.2cm; top: 9.4cm; }
+.El31{ left: 28.3cm; top: 9.4cm; }
+.El32{ left: 30.4cm; top: 9.4cm; }
+.El33{ left: 32.5cm; top: 9.4cm; }
+.El34{ left: 34.6cm; top: 9.4cm; }
+.El35{ left: 36.7cm; top: 9.4cm; }
+.El36{ left: 38.8cm; top: 9.4cm; }
+.El37{ left: 3.1cm; top: 11.5cm; }
+.El38{ left: 5.2cm; top: 11.5cm; }
+.El39{ left: 7.3cm; top: 11.5cm; }
+.El40{ left: 9.4cm; top: 11.5cm; }
+.El41{ left: 11.5cm; top: 11.5cm; }
+.El42{ left: 13.6cm; top: 11.5cm; }
+.El43{ left: 15.7cm; top: 11.5cm; }
+.El44{ left: 17.8cm; top: 11.5cm; }
+.El45{ left: 19.9cm; top: 11.5cm; }
+.El46{ left: 22cm; top: 11.5cm; }
+.El47{ left: 24.1cm; top: 11.5cm; }
+.El48{ left: 26.2cm; top: 11.5cm; }
+.El49{ left: 28.3cm; top: 11.5cm; }
+.El50{ left: 30.4cm; top: 11.5cm; }
+.El51{ left: 32.5cm; top: 11.5cm; }
+.El52{ left: 34.6cm; top: 11.5cm; }
+.El53{ left: 36.7cm; top: 11.5cm; }
+.El54{ left: 38.8cm; top: 11.5cm; }
+.El55{ left: 3.1cm; top: 13.6cm; }
+.El56{ left: 5.2cm; top: 13.6cm; }
+.El57{ left: 9.4cm; top: 20.5cm; }
+.El58{ left: 11.5cm; top: 20.5cm; }
+.El59{ left: 13.6cm; top: 20.5cm; }
+.El60{ left: 15.7cm; top: 20.5cm; }
+.El61{ left: 17.8cm; top: 20.5cm; }
+.El62{ left: 19.9cm; top: 20.5cm; }
+.El63{ left: 22cm; top: 20.5cm; }
+.El64{ left: 24.1cm; top: 20.5cm; }
+.El65{ left: 26.2cm; top: 20.5cm; }
+.El66{ left: 28.3cm; top: 20.5cm; }
+.El67{ left: 30.4cm; top: 20.5cm; }
+.El68{ left: 32.5cm; top: 20.5cm; }
+.El69{ left: 34.6cm; top: 20.5cm; }
+.El70{ left: 36.7cm; top: 20.5cm; }
+.El71{ left: 38.8cm; top: 20.5cm; }
+.El72{ left: 9.4cm; top: 13.6cm; }
+.El73{ left: 11.5cm; top: 13.6cm; }
+.El74{ left: 13.6cm; top: 13.6cm; }
+.El75{ left: 15.7cm; top: 13.6cm; }
+.El76{ left: 17.8cm; top: 13.6cm; }
+.El77{ left: 19.9cm; top: 13.6cm; }
+.El78{ left: 22cm; top: 13.6cm; }
+.El79{ left: 24.1cm; top: 13.6cm; }
+.El80{ left: 26.2cm; top: 13.6cm; }
+.El81{ left: 28.3cm; top: 13.6cm; }
+.El82{ left: 30.4cm; top: 13.6cm; }
+.El83{ left: 32.5cm; top: 13.6cm; }
+.El84{ left: 34.6cm; top: 13.6cm; }
+.El85{ left: 36.7cm; top: 13.6cm; }
+.El86{ left: 38.8cm; top: 13.6cm; }
+.El87{ left: 3.1cm; top: 15.7cm; }
+.El88{ left: 5.2cm; top: 15.7cm; }
+.El89{ left: 9.4cm; top: 22.6cm; }
+.El90{ left: 11.5cm; top: 22.6cm; }
+.El91{ left: 13.6cm; top: 22.6cm; }
+.El92{ left: 15.7cm; top: 22.6cm; }
+.El93{ left: 17.8cm; top: 22.6cm; }
+.El94{ left: 19.9cm; top: 22.6cm; }
+.El95{ left: 22cm; top: 22.6cm; }
+.El96{ left: 24.1cm; top: 22.6cm; }
+.El97{ left: 26.2cm; top: 22.6cm; }
+.El98{ left: 28.3cm; top: 22.6cm; }
+.El99{ left: 30.4cm; top: 22.6cm; }
+.El100{ left: 32.5cm; top: 22.6cm; }
+.El101{ left: 34.6cm; top: 22.6cm; }
+.El102{ left: 36.7cm; top: 22.6cm; }
+.El103{ left: 38.8cm; top: 22.6cm; }
+.El104{ left: 9.4cm; top: 15.7cm; }
+.El105{ left: 11.5cm; top: 15.7cm; }
+.El106{ left: 13.6cm; top: 15.7cm; }
+.El107{ left: 15.7cm; top: 15.7cm; }
+.El108{ left: 17.8cm; top: 15.7cm; }
+.El109{ left: 19.9cm; top: 15.7cm; }
+.El110{ left: 22cm; top: 15.7cm; }
+.El111{ left: 24.1cm; top: 15.7cm; }
+.El112{ left: 26.2cm; top: 15.7cm; }
+.El113{ left: 28.3cm; top: 15.7cm; }
+.El114{ left: 30.4cm; top: 15.7cm; }
+.El115{ left: 32.5cm; top: 15.7cm; }
+.El116{ left: 34.6cm; top: 15.7cm; }
+.El117{ left: 36.7cm; top: 15.7cm; }
+.El118{ left: 38.8cm; top: 15.7cm; }
+.El119{ left: 3.1cm; top: 17.8cm; }
+.El120{ left: 5.2cm; top: 17.8cm; }
+.El121{ left: 9.4cm; top: 24.7cm; }
+.El122{ left: 11.5cm; top: 24.7cm; }
+.El123{ left: 13.6cm; top: 24.7cm; }
+.El124{ left: 15.7cm; top: 24.7cm; }
+.El125{ left: 17.8cm; top: 24.7cm; }
+.El126{ left: 19.9cm; top: 24.7cm; }
+.El127{ left: 22cm; top: 24.7cm; }
+
+.E1, .E5, .E6, .E7, .E8, .E9, .E15, .E16, .E19, .E23, .E39, .E53, .E74, .E92{ /*  Названия с 1 символам */
+	color: #FFFFFF;
+	position: absolute;
+	top: 4mm;
+	left: 7mm;
+  font-size: 25px;
+	font-family: 'Aldrich', sans-serif;
+	user-select: none;
+	border-radius: 0mm;
+}
+.E2, .E3, .E4, .E10, .E11, .E12, .E13, .E14, .E17, .E18, .E20, .E21, .E22, .E24, .E25, .E26, .E27, .E28, .E29, .E30, .E31, /*  Названия с 2 символами */
+.E32, .E33, .E34, .E35, .E36, .E37, .E38, .E40, .E41, .E42, .E43, .E44, .E45, .E46, .E47, .E48, .E49, .E50, .E51,
+.E52, .E54, .E55, .E56, .E57, .E58, .E59, .E60, .E61, .E62, .E63, .E64, .E65, .E66, .E67, .E68, .E69, .E70, .E71,
+.E72, .E73, .E75, .E76, .E77, .E78, .E79, .E80, .E81, .E82, .E83, .E84, .E85, .E86, .E87, .E88, .E89, .E90, .E91,
+.E93, .E94, .E95, .E96, .E97, .E98, .E99, .E100, .E101, .E102, .E103, .E104, .E105, .E106, .E107, .E108, .E109, .E110,
+.E111, .E112, .E113, .E114, .E115, .E116, .E117, .E118{
+	color: #FFFFFF;
+	position: absolute;
+	top: 4mm;
+	left: 5mm;
+  font-size: 25px;
+	font-family: 'Aldrich', sans-serif;
+	user-select: none;
+	border-radius: 0mm;
+}
+.E119, .E120, .E121, .E122, .E123, .E124, .E125, .E126, .E127{ /*  Названия с 3 символами */
+	color: #FFFFFF;
+	position: absolute;
+	top: 4mm;
+	left: 3mm;
+  font-size: 25px;
+	font-family: 'Aldrich', sans-serif;
+	user-select: none;
+	border-radius: 0mm;
+}
+
+#Bl1, #Bl2, #Bl3, #Bl4, #Bl5, #Bl6, #Bl7, #Bl8, #Bl9, #Bl10, #Bl11{ /*  Свойства блоков с семействми химических елементов  */
+	background: transparent;
+	color: #FFFFFF;
+	position: absolute;
+	height: 1.8cm;
+	width: 13cm;
+	user-select: none;
+	border-radius: 5mm;
+	border: 1mm solid #FFFFFF;
+	transition: 0.33s;
+	z-index: 1;
+}
+#Bl1{   /* Позиция блоков с семействми химических елементов */
+	background: transparent;
+	top: 27.5cm;
+	left: 7mm;
+}
+#Bl2{
+	background: transparent;
+	top: 27.5cm;
+	left: 14.4cm;
+}
+#Bl3{
+	background: transparent;
+	top: 27.5cm;
+	left: 28.1cm;
+}
+#Bl4{
+	background: transparent;
+	top: 30cm;
+	left: 7mm;
+}
+#Bl5{
+	background: transparent;
+	top: 30cm;
+	left: 14.4cm;
+}
+#Bl6{
+	background: transparent;
+	top: 30cm;
+	left: 28.1cm;
+}
+#Bl7{
+	background: transparent;
+	top: 32.5cm;
+	left: 7mm;
+}
+#Bl8{
+	background: transparent;
+	top: 32.5cm;
+	left: 14.4cm;
+}
+#Bl9{
+	background: transparent;
+	top: 32.5cm;
+	left: 28.1cm;
+}
+#Bl10{
+	background: transparent;
+	top: 35cm;
+	left: 7mm;
+}
+#Bl11{
+	background: transparent;
+	top: 35cm;
+	left: 14.4cm;
+}
+
+.Bt1, .Bt2, .Bt3, .Bt4, .Bt5, .Bt6, .Bt7, .Bt8, .Bt9, .Bt10, .Bt11{ /* свойства названий семейств химических елементов */
+	color: #FFFFFF;
+  position: absolute;
+  top: -4mm;
+  width: 13cm;
+  font-size: 30px;
+	font-family: 'Aldrich', sans-serif;
+}
+.Bt1{ left: 3cm; }  /* Позиция названия семейств химических елементов */
+.Bt2{ left: 1cm; }
+.Bt3{ left: 2.6cm; }
+.Bt4{ left: 5cm; }
+.Bt5{ left: 4cm; }
+.Bt6{ left: 4.5cm; }
+.Bt7{ left: 5cm; }
+.Bt8{ left: 3cm; }
+.Bt9{ left: 4.4cm; }
+.Bt10{ left: 4.7cm; }
+.Bt11{ left: 3.5cm; }
+
+.El3, .El11, .El19, .El37, .El55, .El87, .El119{  /* Объединение элементов в группу для анимации  */
+  animation-name: El12;
+  animation-duration: 8s;
+}
+ @keyframes El11 {  /* Анимация елементов */
+  0%{background: #FF321E;}
+  50%{background: #FF321E;}
+  75%{background: #FF321E;}
+  100%{background: #111111;}}
+.El4, .El12, .El20, .El38, .El56, .El88, .El120{
+  animation-name: El22;
+  animation-duration: 8s;
+}
+ @keyframes El21 {
+  0%{background: #FFA01E;}
+  50%{background: #FFA01E;}
+  75%{background: #FFA01E;}
+  100%{background: #111111;}}
+.El21, .El22, .El23, .El24, .El25, .El26, .El27, .El28, .El29, .El30, .El39, .El40, .El41, .El42, .El43, .El44, .El45, 
+.El46, .El47, .El48, .El72, .El73, .El74, .El75, .El76, .El77, .El78, .El79, .El80, .El104, .El105, .El106, .El107,
+.El108, .El109, .El110, .El111, .El112{
+  animation-name: El32;
+  animation-duration: 8s;
+}
+ @keyframes El31 {
+  0%{background: #961EFF;}
+  50%{background: #961EFF;}
+  75%{background: #961EFF;}
+  100%{background: #111111;}}
+.El13, .El31, .El49, .El50, .El81, .El82, .El83, .El113, .El114, .El115, .El116{
+  animation-name: El42;
+  animation-duration: 8s;
+}
+ @keyframes El41 {
+  0%{background: #1E1EFF;}
+  50%{background: #1E1EFF;}
+  75%{background: #1E1EFF;}
+  100%{background: #111111;}}
+.El5, .El14, .El32, .El33, .El51, .El52, .El84{
+  animation-name: El52;
+  animation-duration: 8s;
+}
+ @keyframes El51 {
+  0%{background: #1EFFFF;}
+  50%{background: #1EFFFF;}
+  75%{background: #1EFFFF;}
+  100%{background: #111111;}}
+.El1, .El6, .El7, .El8, .El15, .El16, .El34{
+  animation-name: El62;
+  animation-duration: 8s;
+}
+ @keyframes El61 {
+  0%{background: #32FF1E;}
+  50%{background: #32FF1E;}
+  75%{background: #32FF1E;}
+  100%{background: #111111;}}
+.El9, .El17, .El35, .El53, .El85, .El117{
+  animation-name: El72;
+  animation-duration: 8s;
+}
+ @keyframes El71 {
+  0%{background: #FFFF32;}
+  50%{background: #FFFF32;}
+  75%{background: #FFFF32;}
+  100%{background: #111111;}}
+.El2, .El10, .El18, .El36, .El54, .El86, .El118{
+  animation-name: El82;
+  animation-duration: 8s;
+}
+ @keyframes El81 {
+  0%{background: #82BE37;}
+  50%{background: #82BE37;}
+  75%{background: #82BE37;}
+  100%{background: #111111;}}
+.El57, .El58, .El59, .El60, .El61, .El62, .El63, .El64, .El65, .El66, .El67, .El68, .El69, .El70, .El71, .O1{
+  animation-name: El92;
+  animation-duration: 8s;
+}
+ @keyframes El91 {
+  0%{background: #FF9999;}
+  50%{background: #FF9999;}
+  75%{background: #FF9999;}
+  100%{background: #111111;}}
+.El89, .El90, .El91, .El92, .El93, .El94, .El95, .El96, .El97, .El98, .El99, .El100, .El101, .El102, .El103, .O2{
+  animation-name: El102;
+  animation-duration: 8s;
+}
+ @keyframes El101 {
+  0%{background: #FF1E99;}
+  50%{background: #FF1E99;}
+  75%{background: #FF1E99;}
+  100%{background: #111111;}}
+.El121, .El122, .El123, .El124, .El125, .El126, .El127, .O3{
+  animation-name: El112;
+  animation-duration: 8s;
+}
+ @keyframes El111 {
+  0%{background: #991E99;}
+  50%{background: #991E99;}
+  75%{background: #991E99;}
+  100%{background: #111111;}}
