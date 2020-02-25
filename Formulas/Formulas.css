@@ -1,0 +1,60 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #222222;
+	transition: 1.5s;
+}
+.H1{
+	height: 55px;
+	width: 100%;
+	background: #000000;
+}
+h3{
+	color: #FFFFFF;
+	font-family: 'Aldrich', sans-serif;
+	font-size: 40px;
+	position: absolute;
+	top: 30px;
+	left: 45%;
+}
+#liA, #liG, #liF, #liC, .A, .G, .F, .C{
+	height: 500px;
+	width: 170px;
+	position: absolute;
+	top: 150px;
+	border-radius: 18px;
+	transition: 1.5s;
+}
+#liA{ left: 20px; }
+#liG{ left: 240px; }
+#liF{ left: 460px; }
+#liC{ left: 680px; }
+.A{
+	background: -webkit-linear-gradient(bottom left, #0000FF, #0080FF);
+	left: 20px;
+}
+.G{
+	background: -webkit-linear-gradient(bottom left, #0080FF, #00FF80);
+	left: 240px;
+}
+.F{
+	background: -webkit-linear-gradient(bottom left, #00FF80, #00FF00);
+	left: 460px;
+}
+.C{
+	background: -webkit-linear-gradient(bottom left, #00FF00, #80FF00);
+	left: 680px;
+}
+
+.Aa, .Gg, .Ff, .Cc{
+	color: #000000;
+	position: relative;
+	top: 0px;
+	left: 40%;
+	user-select: none;
+	font-family: 'Aldrich', sans-serif;
+}
+.Aa{ font-size: 50px; }
+.Gg{ font-size: 44px; }
+.Ff{ font-size: 50px; }
+.Cc{ font-size: 40px; }
