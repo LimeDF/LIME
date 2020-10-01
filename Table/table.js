@@ -138,7 +138,7 @@ jQuery(document).ready(function($){
   $( ".El28" ).mouseover(function(){ $(".El28").css({"background": "#961EFF", "height": "2.2cm", "width": "2.2cm", "border-radius": "2mm", "z-index": "1"}); });
   $( ".El28" ).mouseout(function(){ $(".El28").css({"background": "#111111", "height": "2cm", "width": "2cm", "border-radius": "0mm", "z-index": "0"}); });
   $( ".El28" ).click(function(){ $("#La1").html("Niccolum - Никель")});
-  $( ".El28" ).click(function(){ $("#La2").html("58,697")});
+  $( ".El28" ).click(function(){ $("#La2").html("58,693")});
   $( ".El28" ).click(function(){ $("#La3").html("[Ar] 3d8 4s2")});
   $( ".El29" ).mouseover(function(){ $(".El29").css({"background": "#961EFF", "height": "2.2cm", "width": "2.2cm", "border-radius": "2mm", "z-index": "1"}); });
   $( ".El29" ).mouseout(function(){ $(".El29").css({"background": "#111111", "height": "2cm", "width": "2cm", "border-radius": "0mm", "z-index": "0"}); });
@@ -163,7 +163,7 @@ jQuery(document).ready(function($){
   $( ".El33" ).mouseover(function(){ $(".El33").css({"background": "#1EFFFF", "height": "2.2cm", "width": "2.2cm", "border-radius": "2mm", "z-index": "1"}); });
   $( ".El33" ).mouseout(function(){ $(".El33").css({"background": "#111111", "height": "2cm", "width": "2cm", "border-radius": "0mm", "z-index": "0"}); });
   $( ".El33" ).click(function(){ $("#La1").html("Arsenicum - Мышьяк")});
-  $( ".El33" ).click(function(){ $("#La2").html("74,92160")});
+  $( ".El33" ).click(function(){ $("#La2").html("74,922")});
   $( ".El33" ).click(function(){ $("#La3").html("[Ar] 3d10 4s2 4p3")});
   $( ".El34" ).mouseover(function(){ $(".El34").css({"background": "#32FF1E", "height": "2.2cm", "width": "2.2cm", "border-radius": "2mm", "z-index": "1"}); });
   $( ".El34" ).mouseout(function(){ $(".El34").css({"background": "#111111", "height": "2cm", "width": "2cm", "border-radius": "0mm", "z-index": "0"}); });
@@ -183,7 +183,7 @@ jQuery(document).ready(function($){
   $( ".El37" ).mouseover(function(){ $(".El37").css({"background": "#FF321E", "height": "2.2cm", "width": "2.2cm", "border-radius": "2mm", "z-index": "1"}); });
   $( ".El37" ).mouseout(function(){ $(".El37").css({"background": "#111111", "height": "2cm", "width": "2cm", "border-radius": "0mm", "z-index": "0"}); });
   $( ".El37" ).click(function(){ $("#La1").html("Rubidium - Рубидий")});
-  $( ".El37" ).click(function(){ $("#La2").html("85,4678")});
+  $( ".El37" ).click(function(){ $("#La2").html("85,468")});
   $( ".El37" ).click(function(){ $("#La3").html("[Kr] 5s1")});
   $( ".El38" ).mouseover(function(){ $(".El38").css({"background": "#FFA01E", "height": "2.2cm", "width": "2.2cm", "border-radius": "2mm", "z-index": "1"}); });
   $( ".El38" ).mouseout(function(){ $(".El38").css({"background": "#111111", "height": "2cm", "width": "2cm", "border-radius": "0mm", "z-index": "0"}); });
@@ -193,7 +193,7 @@ jQuery(document).ready(function($){
   $( ".El39" ).mouseover(function(){ $(".El39").css({"background": "#961EFF", "height": "2.2cm", "width": "2.2cm", "border-radius": "2mm", "z-index": "1"}); });
   $( ".El39" ).mouseout(function(){ $(".El39").css({"background": "#111111", "height": "2cm", "width": "2cm", "border-radius": "0mm", "z-index": "0"}); });
   $( ".El39" ).click(function(){ $("#La1").html("Yttrium - Иттрий")});
-  $( ".El39" ).click(function(){ $("#La2").html("88,90585")});
+  $( ".El39" ).click(function(){ $("#La2").html("88,906")});
   $( ".El39" ).click(function(){ $("#La3").html("[Kr] 4d1 5s2")});
   $( ".El40" ).mouseover(function(){ $(".El40").css({"background": "#961EFF", "height": "2.2cm", "width": "2.2cm", "border-radius": "2mm", "z-index": "1"}); });
   $( ".El40" ).mouseout(function(){ $(".El40").css({"background": "#111111", "height": "2cm", "width": "2cm", "border-radius": "0mm", "z-index": "0"}); });
@@ -203,7 +203,7 @@ jQuery(document).ready(function($){
   $( ".El41" ).mouseover(function(){ $(".El41").css({"background": "#961EFF", "height": "2.2cm", "width": "2.2cm", "border-radius": "2mm", "z-index": "1"}); });
   $( ".El41" ).mouseout(function(){ $(".El41").css({"background": "#111111", "height": "2cm", "width": "2cm", "border-radius": "0mm", "z-index": "0"}); });
   $( ".El41" ).click(function(){ $("#La1").html("Niobium - Ниобий")});
-  $( ".El41" ).click(function(){ $("#La2").html("92,90638")});
+  $( ".El41" ).click(function(){ $("#La2").html("92,906")});
   $( ".El41" ).click(function(){ $("#La3").html("[Kr] 4d4 5s1")});
   $( ".El42" ).mouseover(function(){ $(".El42").css({"background": "#961EFF", "height": "2.2cm", "width": "2.2cm", "border-radius": "2mm", "z-index": "1"}); });
   $( ".El42" ).mouseout(function(){ $(".El42").css({"background": "#111111", "height": "2cm", "width": "2cm", "border-radius": "0mm", "z-index": "0"}); });
